@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "778477706743",
+    "project_id": "fir-rocks-music-2abf3",
+    "storage_bucket": "fir-rocks-music-2abf3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778477706743:android:9bc542c27c39a14267a2f2",
+        "android_client_info": {
+          "package_name": "com.example.assignment_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaUo1TWogvEabaFsaa5yrAdI46ilqx5j0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

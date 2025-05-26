@@ -1,0 +1,39 @@
+name: assignment_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.13.1
+  flutter_svg: ^2.1.0
+  vector_graphics_compiler: ^1.1.17
+  vector_graphics: ^1.1.18
+  provider: ^6.1.5
+  cloud_firestore: ^5.6.8
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+    - family: Syne
+      fonts:
+        - asset: assets/fonts/Syne-VariableFont_wght.ttf
+
+  uses-material-design: true
