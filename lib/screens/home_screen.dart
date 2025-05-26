@@ -5,12 +5,24 @@ import 'package:assignment_app/widgets/circular_user_icon.dart';
 import 'package:assignment_app/widgets/custom_bottom_navigation_bar.dart';
 import 'package:assignment_app/views/music_service_view.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  State<HomeScreen> createState() => _HomeScreenState();
+}
 
+class _HomeScreenState extends State<HomeScreen> {
+  final FocusNode _searchFocusNode = FocusNode();
+
+  @override
+  void dispose() {
+    _searchFocusNode.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
     // for making statusbar transparent and bottom navigation bar of particular color
     SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(
@@ -21,7 +33,10 @@ class HomeScreen extends StatelessWidget {
     );
 
     return GestureDetector(
-      onTap: () => FocusScope.of(context).unfocus(),
+      onTap: () {
+        FocusScope.of(context).unfocus();
+        _searchFocusNode.unfocus();
+      },
       child: Scaffold(
         extendBodyBehindAppBar: true,
         backgroundColor: const Color.fromRGBO(24, 23, 28, 1),
@@ -75,11 +90,16 @@ class HomeScreen extends StatelessWidget {
                                       SvgPicture.asset(
                                         "assets/icons/search_icon.svg",
                                         // color: Colors.white,
-                                        colorFilter: ColorFilter.mode(Colors.white, BlendMode.srcIn),
+                                        colorFilter: ColorFilter.mode(
+                                          Colors.white,
+                                          BlendMode.srcIn,
+                                        ),
                                       ),
                                       const SizedBox(width: 10),
-                                      const Expanded(
+                                      Expanded(
                                         child: TextField(
+                                          focusNode: _searchFocusNode,
+                                          autofocus: false,
                                           style: TextStyle(color: Colors.white),
                                           decoration: InputDecoration(
                                             border: InputBorder.none,
