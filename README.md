@@ -68,25 +68,19 @@ The app fetches data from a Firestore **collection named `music_services`**. Eac
 
 ## 📸 Screenshots
 
-> Add your screenshots here
+### Android Screenshots
+<img src="assets/screenshots/android/android_screenshot_1.png" width="144" height="288"/> &nbsp;&nbsp; <img src="assets/screenshots/android/android_screenshot_2.png" width="144" height="288"/> &nbsp;&nbsp; <img src="assets/screenshots/android/android_screenshot_3.png" width="144" height="288"/> &nbsp;&nbsp; <img src="assets/screenshots/android/android_screenshot_4.png" width="144" height="288"/> 
 
-```
-📷 Add image files to a folder like assets/screenshots/ and embed them below:
-
-![Home Screen](assets/screenshots/home_screen.png)
-![Service Tile](assets/screenshots/service_tile.png)
-```
+### IOS Screenshots
+<img src="assets/screenshots/ios/ios_screenshot_1.png" width="144" height="288"/> &nbsp;&nbsp; <img src="assets/screenshots/ios/ios_screenshot_2.png" width="144" height="288"/> &nbsp;&nbsp; <img src="assets/screenshots/ios/ios_screenshot_3.png" width="144" height="288"/> &nbsp;&nbsp; <img src="assets/screenshots/ios/ios_screenshot_4.png" width="144" height="288"/> 
 
 ---
 
 ## 🎥 Screen Recording
 
-> You can record a walkthrough using tools like OBS Studio or Android Studio Emulator, then embed here:
+[IOS App Demo on YouTube](https://youtube.com/shorts/1wMzivJomYY?feature=share)
 
-```
-🎬 Link to walkthrough video (optional): 
-[Watch Demo on YouTube](https://youtube.com/your-video-link)
-```
+[Android App Demo on YouTube](https://youtube.com/shorts/dZ95O5ga16o?feature=share)
 
 ---
 
@@ -123,7 +117,9 @@ The app fetches data from a Firestore **collection named `music_services`**. Eac
 
 **Ved Patel**
 [Email-id](ved09003@gmail.com)
+
 🔗 [GitHub – vedp18](https://github.com/vedp18)
+
 🔗 [LinkedIn - Ved Patel](https://linkedin.com/in/ved--patel)
 
 
